@@ -31,7 +31,7 @@ if ($.isNode()) {
     authorCodeList = await getAuthorCodeList('')
     if($.getAuthorCodeListerr === false){
         authorCodeList = [
-            'f1b1a887d18a445e99866d4d2e7a4072',
+            '',
         ]
     }
     // console.log(authorCodeList)
