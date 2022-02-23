@@ -28,10 +28,10 @@ if ($.isNode()) {
         $.msg($.name, '【提示】请先获取京东账号一cookie\n直接使用NobyDa的京东签到获取', 'https://bean.m.jd.com/bean/signIndex.action', { "open-url": "https://bean.m.jd.com/bean/signIndex.action" });
         return;
     }
-    authorCodeList = await getAuthorCodeList('https://gitee.com/fatelight/Code/raw/master/lzdz2.json')
+    authorCodeList = await getAuthorCodeList('')
     if($.getAuthorCodeListerr === false){
         authorCodeList = [
-            'f1b1a887d18a445e99866d4d2e7a4072',
+            '',
         ]
     }
     // console.log(authorCodeList)
